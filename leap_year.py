@@ -16,6 +16,7 @@ Note that the code stub provided reads from STDIN and passes arguments to the is
 def leap_year(year):
     leap = False
 
+    # divisible by 4 is not a leap year, it's just for practise
     if year % 4 == 0 and not year % 100 ==0 and not year %400 == 0:
         leap = True
     elif year %4 ==0 and year % 100 == 0 and year % 400 == 0:
