@@ -11,7 +11,7 @@ def build_books(collected_titles):
     list_URI = []
     
     # there are total 50 pages in website
-    for num in range(1,51):
+    for num in range(1,2):
         list_URI.append(f'https://books.toscrape.com/catalogue/page-{num}.html')
         
     for index, data in enumerate(list_URI):
@@ -22,5 +22,6 @@ def build_books(collected_titles):
                 collected_titles.append(data.select('a')[1]['title'])
                 
     return collected_titles
-        
-build_books(collected_titles)
+
+# could've stored in variable 
+print(build_books(collected_titles))
