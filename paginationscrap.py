@@ -23,5 +23,10 @@ def build_books(collected_titles):
                 
     return collected_titles
 
-# could've stored in variable 
-print(build_books(collected_titles))
+build_books(collected_titles)
+
+print(f'\nGathered {len(collected_titles)} title\'s')
+print('======================\n')
+
+for index, titles in enumerate(collected_titles):
+    print(f"{index+1}. {titles}")
