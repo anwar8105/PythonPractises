@@ -5,4 +5,5 @@ def printNum(num):
     for i in range(num):
         print(i+1, end='')
 
+
 printNum(5)
