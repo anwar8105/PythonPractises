@@ -25,7 +25,7 @@ def alarm_clock(day, vacation):
     if vacation:
         if day in range(1, 6):
             return '10:00'
-        return 'off'    # day in [0, 6]:
+        return 'off'    # if falls in [0, 6]:
 
     if day in range(1, 6):
         return '7:00'
