@@ -1,3 +1,6 @@
+# Problem source : codingbat.com
+
+
 '''
 You are driving a little too fast, and a police officer stops you. Write code to compute the result, 
 encoded as an int value: 0=no ticket, 1=small ticket, 2=big ticket. If speed is 60 or less, the result is 0. 
