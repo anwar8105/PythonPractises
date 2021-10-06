@@ -1,3 +1,5 @@
+# Problem source : codingbat.com
+
 '''
 You and your date are trying to get a table at a restaurant. 
 The parameter "you" is the stylishness of your clothes, in the range 0..10, and "date" is the stylishness of your date's clothes. 
